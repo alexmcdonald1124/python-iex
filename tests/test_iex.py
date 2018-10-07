@@ -1,4 +1,8 @@
 import pytest
+import sys
+
+sys.path.append("..")
+
 from iex.iex import IEX
 
 def financials_search():
