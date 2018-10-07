@@ -37,3 +37,6 @@ nosetests.xml
 
 #DS_Store
 .DS_Store
+
+#pytests
+.pytest_cache
