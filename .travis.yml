@@ -7,4 +7,4 @@ install:
   - pip install -e .
 # command to run tests
 script:
-  - pytest
+  - python tests/test_iex.py

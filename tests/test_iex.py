@@ -1,9 +1,10 @@
 import pytest
 import sys
 
-from iex.iex import IEX
+sys.path.insert(0,"../python-iex/iex")
 
-def financials_search():
-    iex = IEX()
-    results = iex.financials("aapl")
-    assert(results)
+from iex import IEX
+
+iex = IEX()
+results = iex.financials("aapl")
+print(results)
