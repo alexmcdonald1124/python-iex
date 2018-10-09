@@ -9,6 +9,10 @@ python-iex
    :target: https://travis-ci.org/alexmcdonald1124/python-iex
    :alt: Latest Travis CI build status
 
+.. image:: https://img.shields.io/badge/license-MIT-blue.svg
+   :target: https://github.com/alexmcdonald1124/python-iex/blob/master/LICENSE
+   :alt: License description
+
 A package for communicating with the IEX API.
 
 Usage
@@ -22,9 +26,6 @@ Requirements
 
 Compatibility
 -------------
-
-Licence
--------
 
 Authors
 -------
