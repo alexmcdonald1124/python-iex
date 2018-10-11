@@ -38,7 +38,7 @@ class IEX(object):
             "price": "stock/{}/price",
             "quote": "stock/{}/quote",
             "relevant_stocks": "stock/{}/relevant",
-            "splits": "stock/{}/splits/{}",
+            "splits": "stock/{}/splits/{}y",
             "time_series": "stock/{}/time-series",
             "volume_by_venue": "stock/{}/volume-by-venue",
             "symbols": "ref-data/symbols",
@@ -146,7 +146,7 @@ class IEX(object):
         uri = self.uris["news"].format(ticker)
         return self.get_request(uri)
 
-    def news(self, ticker, time):
+    def news_range(self, ticker, time):
 
         uri = self.uris["news"].format(ticker, time)
         return self.get_request(uri)
