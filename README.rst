@@ -13,10 +13,6 @@ python-iex
    :target: https://github.com/alexmcdonald1124/python-iex/blob/master/LICENSE
    :alt: License description
 
-.. image:: https://img.shields.io/pypi/pyversions/diffy.svg?style=flat-square
-    :target: https://pypi.org/project/diffy
-    :alt: Supported Python versions
-
 A package for communicating with the IEX API.
 
 Installation
