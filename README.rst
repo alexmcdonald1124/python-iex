@@ -15,19 +15,20 @@ python-iex
 
 A package for communicating with the IEX API.
 
-Usage
------
-
 Installation
 ------------
 
-Requirements
-^^^^^^^^^^^^
+Via pip::
 
-Compatibility
--------------
+    pip install python-iex
 
-Authors
--------
+Or manually::
 
-`python-iex` was written by `Alexander McDonald <N/A>`_.
+	git clone https://github.com/alexmcdonald1124/python-iex.git
+	cd python-iex
+	python setup.py install
+
+Documentation
+------------
+
+Coming soon

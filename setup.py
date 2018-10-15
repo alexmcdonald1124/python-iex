@@ -19,7 +19,7 @@ setup(
     url="https://github.com/alexmcdonald1124/python-iex",
 
     author="Alexander McDonald",
-    author_email="N/A",
+    author_email="alexmcdonald1124@gmail.com",
 
     description="A package for communicating with the IEX API.",
     long_description=read("README.rst"),
